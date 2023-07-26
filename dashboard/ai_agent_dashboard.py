@@ -1,7 +1,8 @@
-```python
 import json
 from flask import Flask, render_template, request
 from research import teen_behavior_study, teen_workflow_analysis, teen_fun_flows, teen_sticky_features, teen_annoyance_factors, teen_interests, teen_habits, parent_expectations, impactful_features
+
+import datetime
 
 app = Flask(__name__)
 
@@ -32,5 +33,5 @@ def dashboard():
     return render_template('dashboard.html', data=dashboard_data)
 
 if __name__ == '__main__':
+    print('Server started at:', datetime.datetime.now())
     app.run(debug=True)
-```
