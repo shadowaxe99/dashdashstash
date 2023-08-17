@@ -1,12 +1,12 @@
 class BlockchainManager:
     def __init__(self):
-        pass
+        print('This is a placeholder.')
 
     def connect_to_blockchain(self):
-        pass
+        print('This is a placeholder.')
 
     def send_transaction(self, transaction):
-        pass
+        print('This is a placeholder.')
 
     def read_data(self, data_key):
-        pass
+        print('This is a placeholder.')

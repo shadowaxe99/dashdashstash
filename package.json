@@ -1,0 +1,12 @@
+{
+  "name": "ai-agent-system",
+  "version": "1.0.0",
+  "description": "A system for managing AI agents",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
